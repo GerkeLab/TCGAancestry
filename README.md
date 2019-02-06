@@ -17,6 +17,7 @@ TCGA samples were merged 1000 Genomes Phase 3 samples in order to perform superv
 - East Asian (EAS)
 - European (EUR)
 - South Asian (SAS)
+
 For more information on these popualtions and a more in-depth look at the populations making up these super populations please visit [1000 Genomes](http://www.internationalgenome.org/category/population/).
 
 ## Marker Set 
