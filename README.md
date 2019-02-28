@@ -1,5 +1,5 @@
-# panCancerADMIX
-Admixture estimates for the TCGA panCancer  cohort  
+# TCGAancestry
+Global ancestry estimates for the TCGA panCancer cohort from ADMIXTURE
 
 ## Summary
 
