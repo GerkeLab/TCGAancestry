@@ -21,7 +21,7 @@ TCGA samples were merged 1000 Genomes Phase 3 samples in order to perform superv
 For more information on these popualtions and a more in-depth look at the populations making up these super populations please visit [1000 Genomes](http://www.internationalgenome.org/category/population/).
 
 ## Marker Set 
-Over 700,000 variants, that were shared bewteen TCGA and 1000 Genomes genotyping, were involved. A complete SNP list is available in the data folder. 
+Over 700,000 variants, that were shared bewteen TCGA and 1000 Genomes genotyping, were involved. A complete SNP list is available in the data folder (supervised_snp_list.txt). 
 
 ## PCA
 
@@ -29,7 +29,25 @@ Prinicpal Component Analysis was performed by tissue type (Normal, Tumor, Other)
 
 ## Data 
 
+* admixture_calls.txt 
+  * ID - TCGA ID
+  * POP - dominant super population 
+  * EUR:AFR - ADMIXTURE global ancestry estimates for 5 super populations 
+  * tissue - tissue type 
+* supervised_snp_list.txt
+  * X1 - chromosome
+  * X2 - SNP name
+  * X3 - Position
+  * X4 - base-pair coordinate
+  * X5 - allele 1 (usually minor)
+  * X6 - allele 2 (usually major)
+  
 ## Code
+
+* stepByStep
+  * contains step by step instructions for downloading/cleaning files and running ADMIXTURE
+* stepByStepSupervised
+  * incorporating 1000 Genomes data and performing the supervised analysis
 
 ## Collaborators
 
