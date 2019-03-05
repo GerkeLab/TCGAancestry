@@ -34,6 +34,10 @@ Prinicpal Component Analysis was performed by tissue type (Normal, Tumor, Other)
   * POP - dominant super population 
   * EUR:AFR - ADMIXTURE global ancestry estimates for 5 super populations 
   * tissue - tissue type 
+* admixture_calls_se.txt 
+  * ID - TCGA ID
+  * EUR:AFR - standard errors from 200 boostrapped replicates
+  * tissue - tissue type 
 * supervised_snp_list.txt
   * X1 - chromosome
   * X2 - SNP name
