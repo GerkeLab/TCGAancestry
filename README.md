@@ -57,7 +57,8 @@ Prinicpal Component Analysis was performed by tissue type (Normal, Tumor, Other)
 
 ## Collaborators
 
-Jordan Creed, Anders Berglund and Travis Gerke
+Jordan Creed
+Travis Gerke
 
 ## Contact Information 
 
