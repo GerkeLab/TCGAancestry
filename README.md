@@ -5,25 +5,28 @@ Global ancestry estimates for the TCGA panCancer cohort from ADMIXTURE
 
 ## Summary
 
-[ADMIXTURE](http://software.genetics.ucla.edu/admixture/) ancestry estimates from 5 "super populations" were calculated for 22,963 TCGA samples. 
+The Cancer Genome Atlas (TCGA) is a vital resource in molecular cancer research. Opportunities to conduct cancer health disparities research from this resource are currently limited by incomplete data capture for self-reported race. Moreover, self-reported measures have known limitations, such as binning mixed race individuals into a single racial group which may not reflect their genetic make-up and thus risk. Therefore, we estimated global ancestry for all available TCGA samples according to standardized populations from 1000 Genomes.
 
 ## Samples
 
-22,963 samples from 11,127 TCGA participants were analyzed. Samples spanned 9 tissues (predominantly primary solid tumors and blood derived normal) and over 30 cancers. Of the participants 10,870 were part of the [Pan-Cancer](https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html) cohort (N=10,956). 
+For all available sample types (primary solid tumor, blood derived normal or other), genotypes were downloaded from TCGA’s Legacy Archive. In total there were 22,963 samples from 11,127 TCGA participants over 30 cancers included.
 
 ## Supervised Analsyis 
 
-TCGA samples were merged 1000 Genomes Phase 3 samples in order to perform supervised analysis. The reference population had ancestries from 5 "super populations":
+[ADMIXTURE](http://software.genetics.ucla.edu/admixture/) software was used to estimate ancestral proportions from each of the five 1000 Genomes global super populations. Phase 3 samples from 1000 Genomes (n = 2504) were used as reference. 
+
+Super populations:
 - African (AFR)
 - Admixed American (AMR)
 - East Asian (EAS)
 - European (EUR)
 - South Asian (SAS)
 
-For more information on these popualtions and a more in-depth look at the populations making up these super populations please visit [1000 Genomes](http://www.internationalgenome.org/category/population/).
+For more information on these popualtions and a more information please visit [1000 Genomes](http://www.internationalgenome.org/category/population/).
 
 ## Marker Set 
-Over 700,000 variants, that were shared bewteen TCGA and 1000 Genomes genotyping, were involved. A complete SNP list is available in the data folder (supervised_snp_list.txt). 
+
+Ancestry estimation was based on approximately 700,000 variants that overlapped between TCGA and 1000 Genomes. A complete SNP list is available from [data/supervised_snp_list.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/supervised_snp_list.txt). 
 
 ## PCA
 
@@ -57,7 +60,8 @@ Prinicpal Component Analysis was performed by tissue type (Normal, Tumor, Other)
 
 ## Collaborators
 
-Jordan Creed
+Jordan Creed 
+
 Travis Gerke
 
 ## Contact Information 
