@@ -23,15 +23,15 @@ Super populations:
 - South Asian (SAS)
 
 
-## Marker Set 
+<!--## Marker Set 
 
-Ancestry estimation was based on approximately 700,000 variants that overlapped between TCGA and 1000 Genomes. A complete SNP list is available from [data/supervised_snp_list.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/supervised_snp_list.txt). 
+Ancestry estimation was based on approximately 700,000 variants that overlapped between TCGA and 1000 Genomes. A complete SNP list is available from [data/supervised_snp_list.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/supervised_snp_list.txt). -->
 
-## PCA
+<!--## PCA
 
-Prinicpal Component Analysis was performed by tissue type (Normal, Tumor, Other) in plink. Estimates for the first 20 PCs are available for download in the data folder. 
+Prinicpal Component Analysis was performed by tissue type (Normal, Tumor, Other) in plink. Estimates for the first 20 PCs are available for download in the data folder. -->
 
-## Data 
+## Main Data 
 
 * [admixture_calls.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/admixture_calls.txt) 
   * ID - TCGA ID
@@ -44,13 +44,14 @@ Prinicpal Component Analysis was performed by tissue type (Normal, Tumor, Other)
   * tissue - tissue type 
 * [admixture_calls_by_chr.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/admixture_calls_by_chr.txt)  and [admixture_calls_se_by_chr.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/admixture_calls_se_by_chr.txt) 
   * Contain same information as [admixture_calls.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/admixture_calls.txt) and [admixture_calls_se.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/admixture_calls_se.txt) but also include chromosome for each set of results 
+
+#### Additional Data Resources 
+
+* [entropy.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/entropy.txt)
+  * ID - TCGA ID, entropy - Shannon's entropy
 * [supervised_snp_list.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/supervised_snp_list.txt)
-  * X1 - chromosome
-  * X2 - SNP name
-  * X3 - Position
-  * X4 - base-pair coordinate
-  * X5 - allele 1 (usually minor)
-  * X6 - allele 2 (usually major)
+  * Approximately 700,000 variants that overlapped between TCGA and 1000 Genomes used for ancestry estimation 
+  * X1 - chromosome, X2 - SNP name, X3 - Position, X4 - base-pair coordinate, X5 - allele 1 (usually minor), X6 - allele 2 (usually major)
   
 ## Code
 
@@ -63,8 +64,12 @@ Prinicpal Component Analysis was performed by tissue type (Normal, Tumor, Other)
 
 Jordan Creed 
 
+Konrad Stopsack
+
+Paul Scheets
+
 Travis Gerke
 
 ## Contact Information 
 
-Any questions or comments concerning the data or processes described in this repo can be directed to Jordan Creed @ Jordan.H.Creed@moffitt.org. 
+Any questions or comments concerning the data or processes described in this repo can be directed to Jordan Creed @ Jordan.H.Creed@moffitt.org or Travis Gerke @ Travis.Gerke@moffitt.org. 
