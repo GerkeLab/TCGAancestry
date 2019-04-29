@@ -11,6 +11,8 @@ The Cancer Genome Atlas ([TCGA](https://www.cancer.gov/about-nci/organization/cc
 
 For all available sample types (primary solid tumor, blood derived normal or other), genotypes were downloaded from [TCGA’s Legacy Archive](https://portal.gdc.cancer.gov/legacy-archive/search/f). In total there were 22,963 samples from 11,127 TCGA participants over 30 cancers included.
 
+![alt text](https://github.com/GerkeLab/TCGAancestry/raw/master/figures/tissue_upset.pdf)
+
 ## Supervised Analsyis 
 
 [ADMIXTURE](http://software.genetics.ucla.edu/admixture/) software was used to estimate ancestral proportions from each of the five 1000 Genomes global super populations. Phase 3 samples from 1000 Genomes (n = 2504) were used as reference. 
