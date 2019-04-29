@@ -11,7 +11,7 @@ The Cancer Genome Atlas ([TCGA](https://www.cancer.gov/about-nci/organization/cc
 
 For all available sample types (primary solid tumor, blood derived normal or other), genotypes were downloaded from [TCGA’s Legacy Archive](https://portal.gdc.cancer.gov/legacy-archive/search/f). In total there were 22,963 samples from 11,127 TCGA participants over 30 cancers included.
 
-![alt text](https://github.com/GerkeLab/TCGAancestry/raw/master/figures/tissue_upset.pdf)
+![](https://github.com/GerkeLab/TCGAancestry/raw/master/figures/tissue_upset.pdf)
 
 ## Supervised Analsyis 
 
