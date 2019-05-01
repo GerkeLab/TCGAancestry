@@ -54,6 +54,9 @@ Prinicpal Component Analysis was performed by tissue type (Normal, Tumor, Other)
 * [supervised_snp_list.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/supervised_snp_list.txt)
   * Approximately 700,000 variants that overlapped between TCGA and 1000 Genomes used for ancestry estimation 
   * X1 - chromosome, X2 - SNP name, X3 - Position, X4 - base-pair coordinate, X5 - allele 1 (usually minor), X6 - allele 2 (usually major)
+* [blood_derived_normal_pca.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/blood_derived_normal_pca.txt), [primary_solid_tumor_pca.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/primary_solid_tumor_pca.txt), and [other_tissues_pca.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/other_tissues_pca.txt)
+  * First 20 PCs by tissue type (analysis performed in plink)
+  * ID - TCGA ID, tissue - tissue PCA performed in, PC1:PC20 - first 20 PCs in order 
   
 ## Code
 
