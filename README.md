@@ -24,15 +24,6 @@ Super populations:
 - European (EUR)
 - South Asian (SAS)
 
-
-<!--## Marker Set 
-
-Ancestry estimation was based on approximately 700,000 variants that overlapped between TCGA and 1000 Genomes. A complete SNP list is available from [data/supervised_snp_list.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/supervised_snp_list.txt). -->
-
-<!--## PCA
-
-Prinicpal Component Analysis was performed by tissue type (Normal, Tumor, Other) in plink. Estimates for the first 20 PCs are available for download in the data folder. -->
-
 ## Main Data 
 
 * [admixture_calls.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/admixture_calls.txt) 
@@ -50,7 +41,7 @@ Prinicpal Component Analysis was performed by tissue type (Normal, Tumor, Other)
 #### Additional Data Resources 
 
 * [entropy.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/entropy.txt)
-  * ID - TCGA ID, entropy - Shannon's entropy
+  * ID - TCGA ID, entropy - Shannon's entropy, tissue - tissue type
 * [supervised_snp_list.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/supervised_snp_list.txt)
   * Approximately 700,000 variants that overlapped between TCGA and 1000 Genomes used for ancestry estimation 
   * X1 - chromosome, X2 - SNP name, X3 - Position, X4 - base-pair coordinate, X5 - allele 1 (usually minor), X6 - allele 2 (usually major)
