@@ -13,9 +13,9 @@ For all available sample types (primary solid tumor, blood derived normal or oth
 
 ![](https://github.com/GerkeLab/TCGAancestry/raw/master/figures/tissue_upset.pdf)
 
-## Supervised Analsyis 
+## Supervised Analsyis
 
-[ADMIXTURE](http://software.genetics.ucla.edu/admixture/) software was used to estimate ancestral proportions from each of the five 1000 Genomes global super populations. Phase 3 samples from 1000 Genomes (n = 2504) were used as reference. 
+[ADMIXTURE](http://software.genetics.ucla.edu/admixture/) software was used to estimate ancestral proportions from each of the five 1000 Genomes global super populations. Phase 3 samples from 1000 Genomes (n = 2504) were used as reference.
 
 Super populations:
 - African (AFR)
@@ -24,31 +24,31 @@ Super populations:
 - European (EUR)
 - South Asian (SAS)
 
-## Main Data 
+## Main Data
 
-* [admixture_calls.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/admixture_calls.txt) 
+* [admixture_calls.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/admixture_calls.txt)
   * ID - TCGA ID
-  * POP - dominant super population 
-  * EUR:AFR - ADMIXTURE global ancestry estimates for 5 super populations 
-  * tissue - tissue type 
-* [admixture_calls_se.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/admixture_calls_se.txt) 
+  * POP - dominant super population
+  * EUR:AFR - ADMIXTURE global ancestry estimates for 5 super populations
+  * tissue - tissue type
+* [admixture_calls_se.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/admixture_calls_se.txt)
   * ID - TCGA ID
   * EUR:AFR - standard errors from 200 boostrapped replicates
-  * tissue - tissue type 
-* [admixture_calls_by_chr.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/admixture_calls_by_chr.txt)  and [admixture_calls_se_by_chr.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/admixture_calls_se_by_chr.txt) 
-  * Contain same information as [admixture_calls.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/admixture_calls.txt) and [admixture_calls_se.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/admixture_calls_se.txt) but also include chromosome for each set of results 
+  * tissue - tissue type
+* [admixture_calls_by_chr.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/admixture_calls_by_chr.txt)  and [admixture_calls_se_by_chr.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/admixture_calls_se_by_chr.txt)
+  * Contain same information as [admixture_calls.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/admixture_calls.txt) and [admixture_calls_se.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/admixture_calls_se.txt) but also include chromosome for each set of results
 
-#### Additional Data Resources 
+#### Additional Data Resources
 
 * [entropy.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/entropy.txt)
   * ID - TCGA ID, entropy - Shannon's entropy, tissue - tissue type
 * [supervised_snp_list.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/supervised_snp_list.txt)
-  * Approximately 700,000 variants that overlapped between TCGA and 1000 Genomes used for ancestry estimation 
+  * Approximately 700,000 variants that overlapped between TCGA and 1000 Genomes used for ancestry estimation
   * X1 - chromosome, X2 - SNP name, X3 - Position, X4 - base-pair coordinate, X5 - allele 1 (usually minor), X6 - allele 2 (usually major)
 * [blood_derived_normal_pca.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/blood_derived_normal_pca.txt), [primary_solid_tumor_pca.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/primary_solid_tumor_pca.txt), and [other_tissues_pca.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/other_tissues_pca.txt)
   * First 20 PCs by tissue type (analysis performed in plink)
-  * ID - TCGA ID, tissue - tissue PCA performed in, PC1:PC20 - first 20 PCs in order 
-  
+  * ID - TCGA ID, tissue - tissue PCA performed in, PC1:PC20 - first 20 PCs in order
+
 ## Code
 
 * [stepByStep](https://github.com/GerkeLab/TCGAancestry/blob/master/code/stepByStep)
@@ -58,14 +58,14 @@ Super populations:
 
 ## Collaborators
 
-Jordan Creed 
+Jordan Creed
 
 Konrad Stopsack
 
-Paul Scheets
+Paul Scheet
 
 Travis Gerke
 
-## Contact Information 
+## Contact Information
 
-Any questions or comments concerning the data or processes described in this repo can be directed to Jordan Creed @ Jordan.H.Creed@moffitt.org or Travis Gerke @ Travis.Gerke@moffitt.org. 
+Any questions or comments concerning the data or processes described in this repo can be directed to Jordan Creed @ Jordan.H.Creed@moffitt.org or Travis Gerke @ Travis.Gerke@moffitt.org.
