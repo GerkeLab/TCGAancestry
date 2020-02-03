@@ -48,6 +48,7 @@ Super populations:
 * [blood_derived_normal_pca.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/blood_derived_normal_pca.txt), [primary_solid_tumor_pca.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/primary_solid_tumor_pca.txt), and [other_tissues_pca.txt](https://github.com/GerkeLab/TCGAancestry/raw/master/data/other_tissues_pca.txt)
   * First 20 PCs by tissue type (analysis performed in plink)
   * ID - TCGA ID, tissue - tissue PCA performed in, PC1:PC20 - first 20 PCs in order
+* Data are also available at [OSF](https://osf.io/wtsjf/)
 
 ## Code
 
