@@ -1,4 +1,6 @@
-# TCGAancestry
+# TCGAancestry <img src="man/ancestry_hex.png" align="right" height="139" />
+
+
 Global ancestry estimates for the TCGA panCancer cohort from ADMIXTURE
 
 <!-- README start -->
